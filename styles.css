@@ -155,3 +155,27 @@ a:hover{
   font-size: 0.75rem;
   padding: 20px 0;
 }
+<!-- Code below added by mvisic -->
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  position: relative;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+p::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  left: 0;
+  height: 5px;
+  border-radius: 2px;
+  background: linear-gradient(111.3deg, #30e3cb 9.6%, #2bc4ad 93.6%);
+}
